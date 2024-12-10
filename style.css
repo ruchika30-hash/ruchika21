@@ -1,0 +1,109 @@
+/*General Styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    color: #403b3b;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(3, 56, 106);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.6em;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1, main h2, main h3 {
+    color: rgb(53, 53, 215);
+}
+
+main img {
+    max-width: 60%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #f29999;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid blue ;
+    background-color: white;
+}
+
+/* Staff Section Styles */
+.staff {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(red, green, blue, alpha);
+}
+
+.staff h2 {
+    color: aquamarine;
+    text-align: center;
+}
+
+.staff-member {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(red, green, blue, alpha);
+}
+
+.staff-member img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
